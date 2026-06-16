@@ -31,7 +31,7 @@ p {
 
 * {
   box-sizing: border-box;
-  font-family: "IBM Plex Mono", var(--system-ui);
+  font-family: "optima, sans-serif", var(--system-ui);
 }
 
 .header {
@@ -50,7 +50,8 @@ p {
   width: 80%;
   margin-left: 10%;
   align-items: center;
-  border-radius: 5px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
   flex-wrap: wrap;
 }
 
