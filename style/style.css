@@ -171,6 +171,10 @@ p {
   margin-top: 2.5%;
 }
 
+.case-text-header{
+  font-size: 5rem;
+}
+
 .case-first-work,
 .case-second-work,
 .case-third-work {
@@ -212,7 +216,19 @@ p {
 .case-third-image {
   background-color: var(--header-nav-bg-color);
   border-radius: 10px;
-  height: 100%;
+  height: 400px;
+  width: 800px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.case-second-image video {
+  max-height: 100%;
+  max-width: 100%;
+  object-fit: contain;
 }
 
 .case-second-btn button {
