@@ -152,9 +152,9 @@ p {
 }
 
 .company-logo-container div img {
-    object-fit: cover;
-    height: 100px;
-    width: auto;
+  object-fit: cover;
+  height: 100px;
+  width: auto;
 }
 
 .case-work-container {
@@ -169,6 +169,10 @@ p {
 
 .case-text {
   margin-top: 2.5%;
+}
+
+.case-text-header{
+  font-size: 5rem;
 }
 
 .case-first-work,
@@ -212,7 +216,19 @@ p {
 .case-third-image {
   background-color: var(--header-nav-bg-color);
   border-radius: 10px;
-  height: 100%;
+  height: 400px;
+  width: 800px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.case-second-image video {
+  max-height: 100%;
+  max-width: 100%;
+  object-fit: contain;
 }
 
 .case-second-btn button {
@@ -402,4 +418,16 @@ input,
 .footer span {
   color: red;
   font-size: 1.5rem;
+}
+
+@media (max-height: 1200px) and (max-width: 2000px) {
+.header {
+  grid-template-rows: 0fr 1fr 1fr 1fr;
+}
+  .company-logo-container div img {
+    object-fit: cover;
+    height: 80px;
+    width: auto;
+  }
+
 }
