@@ -30,15 +30,15 @@ p {
 }
 
 * {
-  box-sizing: border-box;
-  font-family: "optima, sans serrif", var(--system-ui);
+    box-sizing: border-box;
+    font-family: New Century Schoolbook, TeX Gyre Schola, serif;
 }
 
 .header {
   background-image: url("../image/sunset-4047944_1280 (1).jpg");
     background-size: cover;
   display: grid;
-  grid-template-rows: 0.5fr 2fr 1fr;
+  grid-template-rows: 0.5fr 2fr 1fr 1fr;
   grid-template-columns: 2fr 1fr;
 }
 
@@ -97,6 +97,8 @@ p {
   color: var(--main-text-color);
 }
 
+
+
 .header-info-btn > button {
   background-color: var(--started-btn-color);
   color: var(--name-text-color);
@@ -143,6 +145,17 @@ p {
   padding: 3rem;
   margin-top: 2rem;
   border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    box-shadow: 8px 8px;
+}
+
+.company-logo-container div img {
+    object-fit: cover;
+    height: 100px;
+    width: auto;
 }
 
 .case-work-container {
