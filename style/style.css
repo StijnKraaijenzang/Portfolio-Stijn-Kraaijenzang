@@ -152,9 +152,9 @@ p {
 }
 
 .company-logo-container div img {
-    object-fit: cover;
-    height: 100px;
-    width: auto;
+  object-fit: cover;
+  height: 100px;
+  width: auto;
 }
 
 .case-work-container {
@@ -402,4 +402,16 @@ input,
 .footer span {
   color: red;
   font-size: 1.5rem;
+}
+
+@media (max-height: 1200px) and (max-width: 2000px) {
+.header {
+  grid-template-rows: 0fr 1fr 1fr 1fr;
+}
+  .company-logo-container div img {
+    object-fit: cover;
+    height: 80px;
+    width: auto;
+  }
+
 }
