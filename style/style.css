@@ -224,8 +224,9 @@ p {
   align-items: center;
   overflow: hidden;
 }
-
-.case-second-image video {
+.case-first-image img,
+.case-second-image video,
+.case-third-image img {
   max-height: 100%;
   max-width: 100%;
   object-fit: contain;
