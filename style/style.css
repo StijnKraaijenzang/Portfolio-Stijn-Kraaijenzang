@@ -2,7 +2,7 @@
   --system-ui: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif,
     "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   --header-bg-color: rgba(8, 8, 8, 1);
-  --main-text-color: rgba(156, 156, 156, 1);
+  --main-text-color: rgb(224, 224, 224);
   --header-nav-bg-color: rgba(27, 27, 27, 1);
   --name-text-color: white;
   --started-btn-color: rgba(63, 142, 0, 1);
@@ -47,7 +47,6 @@ p {
   grid-column: 1 / 3;
   display: flex;
   justify-content: space-evenly;
-  /*background-color: var(--header-nav-bg-color);*/
   width: 80%;
   margin-left: 10%;
   align-items: center;
@@ -119,7 +118,7 @@ p {
   height: 100%;
   width: 40%;
   border-radius: 50%;
-  color: #b0b0b0;
+  color: var(--main-text-color);
   font-weight: bold;
   font-style: italic;
   font-size: 2rem;
