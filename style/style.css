@@ -214,10 +214,10 @@ p {
 .case-first-image,
 .case-second-image,
 .case-third-image {
-  background-color: var(--header-nav-bg-color);
+
   border-radius: 10px;
   height: 400px;
-  width: 800px;
+  width: auto;
 
   display: flex;
   justify-content: center;
@@ -230,6 +230,7 @@ p {
   max-height: 100%;
   max-width: 100%;
   object-fit: contain;
+  border-radius: 10px
 }
 
 .case-second-btn button {
@@ -431,4 +432,12 @@ input,
     width: auto;
   }
 
+}
+
+.scroll-animate {
+  opacity: 0;
+}
+
+.scroll-animate.animate__animated {
+  opacity: 1;
 }
