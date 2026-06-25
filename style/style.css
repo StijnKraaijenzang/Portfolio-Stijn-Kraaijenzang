@@ -2,7 +2,7 @@
   --system-ui: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif,
     "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   --header-bg-color: rgb(255, 255, 255);
-  --main-text-color: rgb(0, 0, 0);
+  --main-text-color: rgb(255, 255, 255);
   --header-nav-bg-color: rgb(203, 203, 203);
   --name-text-color: white;
   --started-btn-color: rgba(63, 142, 0, 1);
@@ -255,7 +255,7 @@ p {
 .testimonial {
   margin-top: 10%;
   background-color: var(--header-bg-color);
-  color: var(--main-text-color);
+  color: black;
 }
 
 .testimonial-content-container {
